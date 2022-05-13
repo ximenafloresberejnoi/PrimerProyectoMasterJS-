@@ -1,0 +1,125 @@
+body{
+    background-image: url('/Images/portadawhite.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+body p, a{
+    color:white;
+    font-family: 'Lora', serif;
+}
+label{
+    font-family: 'Lora', serif; 
+    font-size: 15px;
+}
+
+
+/* Container (White Box) */
+#global{
+    background-color: rgba(117, 84, 4, 0.9);
+}
+
+
+/* Logo */
+@font-face {
+    font-family: letralogo3;
+    src: url('/Images/Mosthat.otf');
+}
+#logo{
+    color:white;
+    font-family: letralogo3;
+    font-size: 100px;
+    letter-spacing: 3px;
+    margin: 5px 0 30px 0;
+}
+
+
+/* Menu */
+#menu{
+    background-color: #3d2c03;
+}
+#menu ul li:hover {
+    background-color: rgb(14, 12, 12);
+}
+#menu a{
+    color:white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#menu a:hover{
+    font-weight: 900;
+}
+
+
+/* Slider */
+.bx-wrapper, .bx-viewport{
+    width: 1200px;
+    margin-top: 20px;
+}
+.bxslider img{
+    width: 1200px;
+}
+
+
+/* Posts */
+.post h2{
+    color:white;
+    font-family: 'Lora', serif;
+}
+.post .date {
+    color: #3d2c03;
+}
+
+
+/* Button Leer Más */
+.button-more {
+    background-color: #3d2c03;
+}
+.button-more:hover {
+    color: white;
+    font-weight: 800;
+    background-color:rgba(31, 27, 27, 0.4);
+    border: 1px solid white;
+}
+
+/* Sidebar */
+#sidebar h4{   
+    color:white;
+    font-family: 'Lora', serif;
+}
+
+/* Fake Login */ 
+#login {
+    background-color: #3d2c03;
+}
+#login h4 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+form input[type="submit"]{
+    font-family: 'Lora', serif; 
+}
+form input[type="submit"]:hover{
+    background-color: rgba(31, 27, 27, 0.4);
+}
+
+/* Footer */
+footer{
+    background-color: #3d2c03;
+}
+.up{
+    color:#3d2c03;
+    background-color: #fff;
+    border-radius: 150%;
+    padding: 5px 10px;
+    text-decoration: none;
+    display:block;
+    float: right;
+}
+.up:hover{
+    color:white;
+    background-color: #3d2c03;
+  
+}
+
+
+

@@ -1,0 +1,127 @@
+body{
+    background-image: url('/Images/portadared.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+body p, a{
+    font-family: 'Poppins', sans-serif;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Container (White Box) */
+#global{
+    background-color: rgba(255, 255, 255,0.9);
+    border-radius: 30px;
+}
+
+
+/* Logo */
+@font-face {
+    font-family: letralogo;
+    src: url('/Images/letralogo.ttf');
+}
+#logo{
+    color:#480E21;
+    font-family: letralogo;
+    font-size: 90px;
+    font-weight: 800;
+    margin: 30px 0 70px 0;
+}
+
+
+/* Menu */
+#menu{
+    background-color: #540b0e;
+}
+#menu ul li:hover {
+    background-color: #ffe1a8;
+}
+#menu a{
+    color:white;
+}
+#menu a:hover{
+    color:#540b0e;
+}
+
+
+/* Slider */
+.bx-wrapper{
+    margin-left: 80px;
+}
+.bx-wrapper, .bx-viewport{
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.bxslider img{
+    width: 100%;
+    border-radius:20px;
+}
+
+
+/* Posts */
+.post h2{
+    color:#540b0e;
+}
+
+
+/* Button Leer Más */
+.button-more {
+    background-color: #540b0e;
+}
+.button-more:hover {
+    color: #540b0e;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255,0.4);
+}
+
+
+/* Sidebar */
+#sidebar h4{   
+    color:white;
+}
+
+
+/* Fake Login */ 
+#login {
+    background-color: #540b0e;
+}
+form input[type="submit"]:hover{
+    background-color: #540b0e;
+}
+
+
+/* Footer */
+footer{
+    background-color: #540b0e;
+    border-radius: 30px;
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+.up{
+    color:white;
+    background-color: #540b0e;
+    border-radius: 150%;
+    padding: 5px 10px;
+    text-decoration: none;
+    display:block;
+    float: right;
+}
+.up:hover{
+    color:#540b0e;
+    background-color: #fff;
+}
+
+
+
+
+

@@ -1,0 +1,105 @@
+body{
+    background-image: url('/Images/portadablack.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+body p, a{
+    color:white;
+    font-family: 'Lora', serif;
+}
+label{
+    font-family: 'Lora', serif; 
+    font-size: 15px;
+}
+
+
+/* Container (White Box) */
+#global{
+    background-color: rgba(31, 27, 27, 0.9);
+}
+
+
+/* Logo */
+@font-face {
+    font-family: letralogo2;
+    src: url('/Images/Coldiac.ttf');
+}
+#logo{
+    color:white;
+    font-family: letralogo2;
+    font-size: 60px;
+    margin: 50px 0 70px 0;
+}
+
+
+/* Menu */
+#menu{
+    background-color: #000;
+}
+#menu ul li:hover {
+    background-color: rgb(14, 12, 12);
+}
+#menu a{
+    color:white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#menu a:hover{
+    font-weight: 900;
+}
+
+
+/* Slider */
+.bx-wrapper, .bx-viewport{
+    width: 1200px;
+    margin-top: 20px;
+}
+.bxslider img{
+    width: 1200px;
+}
+
+
+/* Posts */
+.post h2{
+    color:white;
+    font-family: 'Lora', serif;
+}
+
+
+/* Button Leer Más */
+.button-more {
+    background-color: rgb(14, 12, 12);
+}
+.button-more:hover {
+    color: white;
+    font-weight: 800;
+    background-color:rgba(31, 27, 27, 0.4);
+    border: 1px solid white;
+}
+
+/* Sidebar */
+#sidebar h4{   
+    color:white;
+    font-family: 'Lora', serif;
+}
+
+/* Fake Login */ 
+#login {
+    background-color: rgba(2, 2, 2, 0.9);
+}
+#login h4 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+form input[type="submit"]{
+    font-family: 'Lora', serif; 
+}
+form input[type="submit"]:hover{
+    background-color: rgba(31, 27, 27, 0.4);
+}
+
+/* Footer */
+footer{
+    background-color: rgba(51, 51, 51, 0.70);
+}
+
